@@ -1,0 +1,19 @@
+[resource]
+
+entry/X11.64="res://bin/librichpresence.so"
+dependency/X11.64=[  ]
+
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="godot_"
+reloadable=true
+
+[entry]
+
+X11.64="res://bin/linux64/librichpresence.so"
+
+[dependencies]
+
+X11.64=[  ]
